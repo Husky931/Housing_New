@@ -90,7 +90,7 @@ export default function App() {
           // hidden={hidden}
         /> */}
         <NavigationContainer
-          theme={useColorScheme() === "light" ? DefaultTheme : DarkTheme}
+        // theme={useColorScheme() === "light" ? DefaultTheme : DarkTheme}
         >
           <Stack.Navigator
             screenOptions={{
