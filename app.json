@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "gigo",
+    "slug": "gigo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "userInterfaceStyle": "automatic",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "jsEngine": "hermes",
+      "userInterfaceStyle": "automatic",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "locales": {
+      "mk": "./languages/macedonian.json",
+      "en": "./languages/english.json"
+    }
+  }
+}
